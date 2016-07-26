@@ -9,7 +9,7 @@ function select (ready) {
 }
 
 module.exports = function (onFile) {
-  return select(function (reader) {
+  return select(function (reader, file) {
     reader.onload = function () {
       onFile(new Buffer(reader.result))
     }
