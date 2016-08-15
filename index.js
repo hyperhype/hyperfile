@@ -1,4 +1,4 @@
-var h = require('hyperscript')
+var h = require('hscrpt')
 
 function select (ready) {
   return h('input', {type: 'file', onchange: function (ev) {
@@ -11,7 +11,7 @@ function select (ready) {
 module.exports = function (onFile) {
   return select(function (reader, file) {
     reader.onload = function () {
-      onFile(new Buffer(reader.result))
+      onFile(reader.result)
     }
     reader.readAsArrayBuffer(file)
   })
