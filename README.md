@@ -8,7 +8,7 @@ get a file raw file into the browser
 var hyperfile = require('hyperfile')
 
 document.body.appendChild(hyperfile(function (buffer) {
-  //called with a raw buffer whenever the user selects a file.
+  //called with a raw array-buffer whenever the user selects a file.
 }))
 ```
 
