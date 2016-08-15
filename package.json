@@ -8,7 +8,7 @@
     "url": "git://github.com/dominictarr/hyperfile.git"
   },
   "dependencies": {
-    "hyperscript": "^1.4.7"
+    "hscrpt": "0.0.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -17,3 +17,4 @@
   "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (dominictarr.com)",
   "license": "MIT"
 }
+
